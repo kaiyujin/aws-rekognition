@@ -3,7 +3,7 @@ import boto3
 import base64
 
 def lambda_handler(event, context):
-    bucket_name = 'shiraishi-test'
+    bucket_name = 'test'
     source_key = 'test-1.jpeg'
     target_key = 'target.png'
 
